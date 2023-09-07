@@ -1,12 +1,13 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.9
 
 import PackageDescription
 
 let package = Package(
     name: "WireGuardKit",
     platforms: [
-        .macOS(.v10_12),
-        .iOS(.v13)
+        .macOS(.v12),
+        .iOS(.v15),
+        .tvOS(.v17)
     ],
     products: [
         .library(name: "WireGuardKit", targets: ["WireGuardKit"])
